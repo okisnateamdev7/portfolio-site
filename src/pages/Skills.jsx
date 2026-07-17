@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Wrench, Palette, Globe, Server, Terminal, GitBranch, Figma } from 'lucide-react';
+import { Code, Server, Database, GitBranch, Terminal, Globe } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       title: "Design & UX",
-      icon: Figma,
+      icon: Globe,
       skills: ["Figma", "Adobe XD", "Prototyping", "User Research", "Accessibility", "Responsive Design"]
     }
   ];
