@@ -58,7 +58,7 @@ const Navbar = () => {
             className="p-2 rounded-md hover:bg-primary/10 text-gray-300 hover:text-white"
             aria-label="Open menu"
           >
-            {isOpen ? <Twitter className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {isOpen ? <TwitterIcon className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
       </div>

@@ -20,16 +20,16 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://github.com/alexmorgan-dev" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
-              <Github className="h-5 w-5" /> GitHub
+              <GitHubIcon className="h-5 w-5" /> GitHub
             </a>
             <a href="https://linkedin.com/in/alexmorgan-dev" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
-              <Linkedin className="h-5 w-5" /> LinkedIn
+              <LinkedinIcon className="h-5 w-5" /> LinkedIn
             </a>
             <a href="https://x.com/alexmorgan_dev" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
-              <Twitter className="h-5 w-5" /> X
+              <TwitterIcon className="h-5 w-5" /> X
             </a>
             <a href="mailto:alex.morgan@example.com" className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
-              <Mail className="h-5 w-5" /> Email
+              <MailIcon className="h-5 w-5" /> Email
             </a>
           </div>
           <a href="#projects" className="btn btn-primary">Explore My Work</a>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, MapPin, Phone, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, GitHub, Linkedin, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ const Contact = () => {
       <section className="contact relative overflow-hidden flex items-center min-h-[80vh]">
         <div className="container text-center space-y-6">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-success/10 text-success rounded-full">
-            <Send className="w-8 h-8" />
+            <SendIcon className="w-8 h-8" />
           </div>
           <h2 className="text-3xl font-bold text-white">Message Sent!</h2>
           <p className="text-gray-300 max-w-md mx-auto">
@@ -69,15 +69,15 @@ const Contact = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-300">
-                <Mail className="w-5 h-5 text-primary" />
+                <MailIcon className="w-5 h-5 text-primary" />
                 <span>alex.morgan@example.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
-                <MapPin className="w-5 h-5 text-primary" />
+                <MapPinIcon className="w-5 h-5 text-primary" />
                 <span>San Francisco, CA</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
-                <Phone className="w-5 h-5 text-primary" />
+                <PhoneIcon className="w-5 h-5 text-primary" />
                 <span>+1 (555) 123-4567</span>
               </div>
             </div>
@@ -85,10 +85,10 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a href="https://github.com/alexmorgan-dev" target="_blank" rel="noopener noreferrer" className="p-3 bg-surface/30 hover:bg-primary/20 rounded-lg border border-border/50 hover:border-primary/50 text-gray-300 hover:text-white transition-all duration-300">
-                <Github className="w-5 h-5" />
+                <GitHubIcon className="w-5 h-5" />
               </a>
               <a href="https://linkedin.com/in/alexmorgan-dev" target="_blank" rel="noopener noreferrer" className="p-3 bg-surface/30 hover:bg-primary/20 rounded-lg border border-border/50 hover:border-primary/50 text-gray-300 hover:text-white transition-all duration-300">
-                <Linkedin className="w-5 h-5" />
+                <LinkedinIcon className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Contact = () => {
               </div>
               <button type="submit" className="btn btn-primary w-full flex items-center justify-center gap-2" disabled={isSubmitting}>
                 {isSubmitting ? 'Sending...' : 'Send Message'}
-                <Send className="w-4 h-4" />
+                <SendIcon className="w-4 h-4" />
               </button>
             </form>
           </div>
